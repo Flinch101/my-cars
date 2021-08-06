@@ -1,0 +1,31 @@
+#stock .contenedor{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+#stock article {
+  margin: 15px;
+}
+
+#stock img {
+  width: 100%;
+  max-width: 500px;
+}
+
+#stock a{
+  display: block;
+  width: 300px;
+  text-decoration: none;
+  padding: 7px;
+  color: #fff;
+  border: 3px solid #fff;
+  background: black;
+  margin: auto;
+}
+
+#stock a:hover{
+  background: #2a2a2a;
+  transition: all 0.5s;
+}

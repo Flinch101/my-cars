@@ -1,0 +1,61 @@
+@media (min-width:1024px){
+  .menu {
+    position: static;
+    width: auto;
+    height: auto;
+
+    transform: translateX(0);
+    float: right;
+    display: flex;
+  }
+
+  .menu a{
+    border: none;
+  }
+
+  .menu a:hover{
+    border-left: none;
+  }
+
+  .contenedor {
+    width: 1000px;
+  }
+
+  header label{
+    display: none;
+  }
+
+  #banner img{
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 768px) {
+  #banner {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  #banner img{
+    height: auto;
+    margin-top: -100px;
+  }
+
+  .redes-sociales {
+    width: auto;
+  }
+
+  footer .contenedor {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 480px) {
+  #banner h2{
+    font-size: 40px;
+  }
+
+  #banner a{
+    margin-top: 25px;
+  }
+}

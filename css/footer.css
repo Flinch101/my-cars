@@ -1,0 +1,12 @@
+footer .contenedor{
+  width: 100%;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  font-size: 50px;
+  padding-bottom: 25px;
+}

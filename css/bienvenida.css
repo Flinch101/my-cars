@@ -1,0 +1,21 @@
+#bienvenida {
+  text-align: center;
+}
+
+#bienvenida a{
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  display: block;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin-top: 10px;
+}
+
+#bienvenida a:hover{
+  background: #2a2a2a;
+  color: #fff;
+  transition: all 0.5s;
+}
